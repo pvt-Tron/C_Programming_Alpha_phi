@@ -8,7 +8,7 @@ int main()
     for(int line=1;line<=nl;line=line+1)
     {
         scanf("%s",&s);
-        
+
     }
     int lenstrig=strlen(s);
     if(lenstrig<=4)
@@ -17,9 +17,10 @@ int main()
     }
     else
     {
-        char longst[1001]=s;
+        char longst[1001];
         for(int i=0;i<lenstrig;i=i+1)
         {
+            
 
         }        
     }
