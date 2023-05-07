@@ -3,9 +3,9 @@
 void fun(int i)
 {
     if(i==6) return; // base case
-    fun(i+1);
-    printf("%d\n",i);
     // fun(i+1);
+    printf("%d\n",i);
+    fun(i+1);
 }
 int main()
 {

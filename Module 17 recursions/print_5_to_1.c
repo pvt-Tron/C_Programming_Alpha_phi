@@ -3,9 +3,10 @@
 void fun(int i,int j)
 {
     int x=j;
-    if(i==j-1) return; // base case
+    if(i==j+1) return; // base case
+    fun(i+1,x);
     printf("%d\n",i);
-    fun(i-1,x);
+    
 }
 int main()
 {
